@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight-Reading Quiz</title>
+    <script src="https://cdn.jsdelivr.net/npm/webmidi@latest/dist/iife/webmidi.iife.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/universal.css">
+    <link rel="stylesheet" type="text/css" href="../styles/toene.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+</head>
+<body id="body">
+<div class="container">
+    <!-- <h1>Sight-Reading Quizz</h1> -->
+    <p class="score" id="score">0</p>
+    <div class="img-wrapper">
+        <img src="../images/toene/0G3.png" class="toene-img" id="change-img" alt="Bild eines Intervals/einer Note.">
+    </div>
+    <div class="button-container" id="button-container">
+        <button class="white" id="C"></button>
+        <button class="black" id="CS"></button>
+        <button class="white" id="D"></button>
+        <button class="black" id="DS"></button>
+        <button class="white" id="E"></button>
+        <button class="white" id="F"></button>
+        <button class="black" id="FS"></button>
+        <button class="white" id="G" id=""></button>
+        <button class="black" id="GS"></button>
+        <button class="white" id="A"></button>
+        <button class="black" id="AS"></button>
+        <button class="white" id="B"></button>
+    </div>
+</div>
+<button class="backButton" id="backButton"><a href="../index.html">Zurück</a></button>
+
+<div class="settings" id="settings">
+    <input type="checkbox" checked>
+    <label>Violinschlüssel</label> <br>
+    <input type="checkbox">
+    <label>Bassschlüssel</label> <br>
+    <input type="checkbox">
+    <label>Vorzeichen</label>
+</div>
+
+<div class="basesettings" id="basesettings">
+    <span class="material-symbols-outlined">
+        settings
+    </span>
+</div>
+
+<script src="../scripts/universal.js"></script>
+<script src="images/javascript_toene_arrays.js"></script>
+<script src="../scripts/toene.js"></script>
+<script src="../scripts/midi.js"></script>
+</body>
+</html>
