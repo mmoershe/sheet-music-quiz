@@ -16,6 +16,15 @@ intervals. This is why this quiz consists of two sections: _Intervalle_ and
 _Töne_, althought the latter one turned out to be the focus of this project and
 is the one that may actually be useful.
 
+## Technical Context
+
+I built this in 2023 and moved the content from a now deleted-repository to this
+one. For some odd reason, I was determined to use GitHub Pages for it.
+Challenged by the static nature of GitHub Pages, I had to pre-generate all the
+images of all notes and intervals, and generally do a lot of weird things. So
+yes, there are quirks to the code and to the general technical structure of
+this.
+
 ## TODO
 
 - [ ] Background image(s) mit AI generieren
